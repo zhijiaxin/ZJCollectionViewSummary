@@ -1,7 +1,8 @@
 # ZJCollectionViewSummary
 
 博客地址：https://www.jianshu.com/u/d523b948e666
-GitHub地址：
+
+GitHub地址：https://github.com/zhijiaxin/ZJCollectionViewSummary.git
 
 ####1、ZJCollectionViewSummary的由来
 
@@ -25,6 +26,7 @@ GitHub地址：
 ####3.1、注：基础用法都是UI层面或是处理数据刷新界面
 
 ####3.1.1、给CollectionView添加headerView
+
 ![添加headerView.gif](https://upload-images.jianshu.io/upload_images/1204112-dbe7a6614a386595.gif?imageMogr2/auto-orient/strip)
 
 设置
@@ -43,6 +45,7 @@ GitHub地址：
 都是操作数组刷新界面。没什么的。
 
 ####3.1.3、CollectionView中cell 的多选
+
 ![cell的全选.gif](https://upload-images.jianshu.io/upload_images/1204112-6e0ef7b88cb51bf5.gif?imageMogr2/auto-orient/strip)
 
 思路：创建两个数组，一个是数据源_listArray，一个用作保存选中数据selectedArray。只有全选或非全选才刷新界面，点选只刷新当前cell。
@@ -66,6 +69,7 @@ GitHub地址：
 
 ####3.2、进阶用法
 #####3.2.1、实现图片轮播
+
 ![轮播.gif](https://upload-images.jianshu.io/upload_images/1204112-a9bfc3eaa34ad697.gif?imageMogr2/auto-orient/strip)
 
 ZJCycleView可显示本地图片，也可以是网络图片，还可以本地图片与网络图片混合现实。样式如图。相关属性和方法。
@@ -235,6 +239,7 @@ ZJCycleView可显示本地图片，也可以是网络图片，还可以本地图
      }
 
 ####3.2.3、CollectionView长安拖动cell重新排序
+
 ![长安拖动.gif](https://upload-images.jianshu.io/upload_images/1204112-9be3de452e8c9da9.gif?imageMogr2/auto-orient/strip)
 
 主要代码：
@@ -281,6 +286,7 @@ ZJCycleView可显示本地图片，也可以是网络图片，还可以本地图
 
 ####3.2.4、常见的几种布局，包括水平/竖直华东缩小、水平/竖直流水布局、
 ####A、水平/竖直华东缩小
+
 ![线性布局（水平与竖直）.gif](https://upload-images.jianshu.io/upload_images/1204112-9aea6c5eaae91ec5.gif?imageMogr2/auto-orient/strip)
 
     self.currentIndex = 0;
@@ -295,6 +301,7 @@ ZJCycleView可显示本地图片，也可以是网络图片，还可以本地图
     [self.collectionView reloadData];
 
 ####B、水平/竖直流水布局
+
 ![流水布局（竖直:水平）.gif](https://upload-images.jianshu.io/upload_images/1204112-b99159968a1e4240.gif?imageMogr2/auto-orient/strip)
 
     typedef NS_ENUM(NSInteger, ZJWaterDirection) {
