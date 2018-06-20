@@ -567,17 +567,9 @@
 		62D38DC620BB9E3900891601 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				62D38DC720BB9E3900891601 /* Categroy */,
 				62D38DC820BB9E3900891601 /* Controller */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		62D38DC720BB9E3900891601 /* Categroy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categroy;
 			sourceTree = "<group>";
 		};
 		62D38DC820BB9E3900891601 /* Controller */ = {

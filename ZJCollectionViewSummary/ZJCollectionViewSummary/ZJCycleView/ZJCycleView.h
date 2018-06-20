@@ -6,29 +6,38 @@
 //  Copyright © 2018年 James. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+/**
+ 项目地址：https://github.com/zhijiaxin/ZJCollectionViewSummary.git
+ 
+ 也可以到博客下看看相关介绍
+ 博客地址：https://www.jianshu.com/p/ff7089782d6c
+ 
+ 有什么错误或使用不便的地方可以留言或加我QQ
+ 
+ QQ：1224740397
+ */
 
-//typedef void(^ZJCycleViewSelectItemAtIndexBlock)(NSString *selectIndex);
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, ZJCycleViewType)
 {
-CycleViewImage                  = 1,
-CycleViewSeparateTitleAndImage  = 1 << 1,
-CycleViewMergeTitleAndImage     = 1 << 2,
+    CycleViewImage                  = 1,
+    CycleViewSeparateTitleAndImage  = 1 << 1,
+    CycleViewMergeTitleAndImage     = 1 << 2,
 };
 
 /** 可以定义PageContol圆点的类型 */
 typedef NS_ENUM(NSInteger, ZJCyclePageContolStyle) {
-ZJCyclePageContolStyleNone,     //圆点
-ZJCyclePageContolStyleRectangle,//条状
-ZJCyclePageContolStyleImage,    //图片
+    ZJCyclePageContolStyleNone,     //圆点
+    ZJCyclePageContolStyleRectangle,//条状
+    ZJCyclePageContolStyleImage,    //图片
 };
 
 /** 可以定义PageContol圆点的类型 */
 typedef NS_ENUM(NSInteger, ZJCyclePageContolLocation) {
-ZJCyclePageContolLocationCenter,//中间
-ZJCyclePageContolLocationLeft, //左边
-ZJCyclePageContolLocationRight,//右边
+    ZJCyclePageContolLocationCenter,//中间
+    ZJCyclePageContolLocationLeft, //左边
+    ZJCyclePageContolLocationRight,//右边
 };
 
 @class ZJCycleView;
