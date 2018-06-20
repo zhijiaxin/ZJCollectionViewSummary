@@ -1,6 +1,6 @@
 # ZJCollectionViewSummary
 
-博客地址：https://www.jianshu.com/u/d523b948e666
+博客地址：https://www.jianshu.com/p/ff7089782d6c
 
 GitHub地址：https://github.com/zhijiaxin/ZJCollectionViewSummary.git
 
